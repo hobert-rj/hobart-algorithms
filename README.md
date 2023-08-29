@@ -10,7 +10,7 @@ Install mini conda from [mini-conda](https://docs.conda.io/en/latest/miniconda.h
 
 Clone this project from GitHub:
 ```bash
-git clone https://github.com/hobert-rj/Hobart_Algorithms.git
+git clone https://github.com/hobert-rj/hobart-algorithms.git
 ```
 
 ## 2. Environment Setup
@@ -21,7 +21,7 @@ Create and install environment:
 conda env create --file environment.yml
 ```
 
-Or to create environment in your active directory:
+Or to create an environment in your active directory:
 
 ```bash
 conda env create --prefix ./env --file environment.yml
@@ -35,7 +35,7 @@ Whenever you want to work on your project, activate the environment.:
 conda activate hobart_algorithms
 ```
 
-Or to run environment installed in your active directory:
+Or to run the environment installed in your active directory:
 
 ```bash
 conda activate ./env
